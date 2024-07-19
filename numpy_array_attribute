@@ -1,0 +1,36 @@
+import numpy as np
+
+
+one = np.array([1, 2, 3])
+two = np.array([[1, 2], [3, 4]])
+three = np.array([[[1, 2], [3, 4], [5, 6]]])
+
+# ndim 
+print(one.ndim)
+print(two.ndim)
+print(three.ndim)
+print("================")
+
+# shape
+print(one.shape)
+print(two.shape)
+print(three.shape)
+print("================")
+
+# size 
+print(one.size)
+print(two.size)
+print(three.size)
+print("================")
+
+# item size 
+print(one.itemsize)
+print(two.itemsize)
+print(three.itemsize)
+print("================")
+
+# dtype 
+print(one.dtype)
+print(two.dtype)
+print(three.dtype)
+
